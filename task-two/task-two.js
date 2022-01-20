@@ -24,7 +24,6 @@ class Person {
     }
   }
   
-  
   const stud1 = new Student("Petro", "Petrenko", 2017);
-  console.log(stud1.showFullName("Petrovych")); // Petrenko Petro Petrovych
-  console.log("Current course: " + stud1.showCourse()); //Current course: 5
+  console.log(stud1.showFullName("Petrovych")); 
+  console.log("Current course: " + stud1.showCourse()); 
